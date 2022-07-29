@@ -1,0 +1,28 @@
+@keyframes animateBG{
+    0%{
+        background-position: 0% 0%;
+    }
+
+    50%{
+        background-position:100% 100%;
+    }
+
+    100%{
+        background-position:0% 0%; 
+    }
+}
+
+main{
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image:url('../assets/background.jpg');
+    background-size: 150%;
+
+    animation:animateBG 60s ease infinite;
+}

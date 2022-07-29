@@ -1,0 +1,45 @@
+.poke-card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    font-size: 4em;
+
+    position: relative;
+
+    transform: translateY(-50px);
+}
+
+.poke-card div{
+    border-bottom: 3px solid white;
+    margin-bottom: 30px;
+}
+
+#pokemon-number{
+    font-weight: bold;
+}
+
+#pokemon-name{
+    font-weight: lighter;
+}
+
+#pokemon-img{
+    display: block;
+    filter:drop-shadow(10px 10px 3px rgba(0,0,0,0.5));
+}
+
+.search{
+    margin-top:100px;
+    width:100%;
+}
+
+.search input{
+    display:block;
+    margin:0 auto;
+    width:60%;
+    height:50px;
+    border:none;
+    padding:10px;
+    font-size:1.3em;
+}
